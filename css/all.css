@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  color: black;
+  font-family: "Maven Pro";
+  background-color: #e9e9e9; }
+
+header aside footer main {
+  background-color: #cae8d9;
+  /*	position: fixed; 
+    	width: 100%; */ }
+
+h1 {
+  font-family: 'Kranky', serif;
+  font-size: 2em;
+  padding: 20px 0px 0px; }
+
+/*aside header footer {
+	background-color: #cae8d9;
+}*/
+h4 {
+  font-size: 1.2em;
+  padding: 10px 0px; }
+
+/*main {
+	background-color: #cae8d9;
+}*/
+h3 {
+  font-size: 2em;
+  padding: 25px 0px 10px;
+  color: #ed4034; }
+
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.hearts {
+  width: 60%;
+  z-index: 10;
+  position: relative; }
+
+.flag {
+  width: 35%;
+  z-index: 10;
+  position: relative;
+  webkit-transition: opacity 0.5s;
+  moz-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  opacity: 1; }
+
+.above {
+  vertical-align: top;
+  margin-top: 25px; }
+
+.below {
+  vertical-align: bottom;
+  margin-top: 25px; }
+
+footer {
+  padding: 5px; }
+
+span {
+  color: #bbbdc0;
+  font-size: 5em;
+  text-align: center;
+  font-family: "Kranky"; }
+
+select {
+  -webkit-appearance: none;
+  color: #bbbdc0;
+  height: 40px;
+  width: 175px;
+  text-indent: .2em;
+  border: none;
+  font-size: 1.5em;
+  text-transform: capitalize; }
+
+/*select::-webkit-input-placeholder {
+  font-size: 3em;
+}*/
+#countries {
+  text-align: center;
+  margin-top: -8px;
+  margin-bottom: -35px; }
+
+#countriesAbove {
+  margin-bottom: -16px;
+  text-transform: capitalize; }
+
+#countriesBelow {
+  margin-top: -6px;
+  text-transform: capitalize; }
+
+@media (min-width: 300px) {
+  h1 {
+    font-size: 2.25em; } }
+@media (min-width: 350px) {
+  h1 {
+    font-size: 2.5em; } }
+@media (min-width: 375px) {
+  h1 {
+    font-size: 2.75em; } }
+@media (min-width: 480px) {
+  h1 {
+    font-size: 3.5em; }
+
+  #countriesAbove, #countriesBelow {
+    display: inline-block;
+    width: 40%; }
+
+  #plus {
+    display: inline-block;
+    width: 10%;
+    font-size: 7em;
+    vertical-align: middle; }
+
+  #countries {
+    margin-top: -40px;
+    margin-bottom: -60px; } }
+@media (min-width: 650px) {
+  .wrapper {
+    width: 650px;
+    margin: 0 auto;
+    /* To centre the main container */ }
+
+  h1 {
+    font-size: 4.5em; }
+
+  #plus {
+    font-size: 8em; }
+
+  select {
+    height: 60px;
+    width: 250px;
+    text-indent: .5em;
+    font-size: 1.75em; } }
+
+/*# sourceMappingURL=all.css.map */

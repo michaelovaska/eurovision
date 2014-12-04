@@ -1,0 +1,68 @@
+
+@media (min-width: 300px) {
+  h1 {
+    font-size: 2.25em;
+  }
+}
+
+@media (min-width: 350px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 375px) {
+  h1 {
+    font-size: 2.75em;
+  }
+}
+
+@media (min-width: 480px) {
+  
+  h1 {
+    font-size: 3.5em;
+  }
+
+  #countriesAbove, #countriesBelow {
+    display: inline-block;
+    width: 40%;
+  }
+
+  #plus {
+    display: inline-block;
+    width: 10%;
+    font-size: 7em;
+    vertical-align: middle;
+  }
+
+  #countries {
+    margin-top: -40px;
+    margin-bottom: -60px;
+  }
+}
+
+
+@media (min-width: 650px) {
+
+  .wrapper {
+      width: 650px;
+      margin: 0 auto; /* To centre the main container */
+    }
+
+    h1 {
+      font-size: 4.5em;
+    }
+
+    #plus {
+      font-size: 8em;
+    }
+
+    select {
+      height: 60px;
+      width: 250px;
+      text-indent: .5em;
+      font-size: 1.75em;
+    }
+
+
+}

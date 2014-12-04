@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+
+}
+
+body{
+	color: black;
+	font-family: "Maven Pro";
+	background-color: $light-grey;
+}
+
+
+header aside footer main {
+	background-color: #cae8d9;
+/*	position: fixed; 
+  	width: 100%; */
+}
+
+h1 {
+	font-family: 'Kranky', serif;
+	font-size: 2em;
+	padding: 20px 0px 0px;
+}
+
+
+
+/*aside header footer {
+	background-color: #cae8d9;
+}*/
+
+h4 {
+	font-size: 1.2em;
+	padding: 10px 0px;
+}
+
+/*main {
+	background-color: #cae8d9;
+}*/
+
+h3 {
+	font-size: 2em;
+	padding: 25px 0px 10px;
+	color: #ed4034;
+}
+
+.wrapper {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.hearts {
+	width: 60%;
+	z-index: 10;
+	position: relative;
+}
+
+.flag  {
+	width: 35%;
+	z-index: 10;
+	position: relative;
+	webkit-transition: opacity 0.5s;
+	moz-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	opacity: 1;
+}
+
+.above {
+	vertical-align: top;
+	margin-top: 25px;
+}
+
+.below {
+	vertical-align: bottom;
+	margin-top: 25px;
+}
+
+
+footer {
+	padding: 5px;
+}
+
+span {
+	color: #bbbdc0;
+	font-size: 5em;
+	text-align: center;
+	font-family: "Kranky";
+	}
+
+select {
+	-webkit-appearance: none;
+	color: #bbbdc0;
+	height: 40px;
+	width: 175px;
+	text-indent: .2em;
+	border: none;
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+
+/*select::-webkit-input-placeholder {
+  font-size: 3em;
+}*/
+
+#countries {
+	text-align: center;
+	margin-top: -8px;
+	margin-bottom: -35px;
+}
+
+#countriesAbove {
+	margin-bottom: -16px;
+	text-transform: capitalize;
+}
+
+#countriesBelow {
+	margin-top: -6px;
+	text-transform: capitalize;
+}
+
+
