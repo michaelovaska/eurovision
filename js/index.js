@@ -2381,7 +2381,7 @@ function checkValues () {
 // if the XY country averages are the same then display a reltionship status of IN LOVE
 
     else if (country1Number === country2Number) {
-    	$("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady these past couple of decades and know that giving is as important as receiving. they awarded each other " + country1Number + " points.");
+    	$("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady and know that giving is as important as receiving. They awarded each other " + country1Number + " points.");
         $("#heartsAbove").attr('src', "images/hearts.svg");
         $("#heartsBelow").attr('src', "images/hearts.svg");
     } 
@@ -2389,25 +2389,25 @@ function checkValues () {
 // if the difference is <2 display a reltionship status of IN LOVE
 
     else if (country1Number-country2Number <=1.5 && country1Number-country2Number >=0 && countriesAverage >=6) {
-        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady these past couple of decades and know that giving is as important as receiving. It's all very hot and heavy after 20 years and they awarded each other an average of " + countriesAverage + " points.");
+        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady and know that giving is as important as receiving. They awarded each other an average of " + countriesAverage + " points.");
         $("#heartsAbove").attr('src', "images/hearts.svg");
         $("#heartsBelow").attr('src', "images/hearts.svg");
     }
 
     else if (country2Number-country1Number <=1.5 && country2Number-country1Number >=0 && countriesAverage >=6) {
-        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady these past couple of decades and know that giving is as important as receiving. It's all very hot and heavy after 20 years and they awarded each other an average of " + countriesAverage + " points.");
+        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady and know that giving is as important as receiving. They awarded each other an average of " + countriesAverage + " points.");
         $("#heartsAbove").attr('src', "images/hearts.svg");
         $("#heartsBelow").attr('src', "images/hearts.svg");
     }
 
      else if (country1Number-country2Number <=1.5 && country1Number-country2Number >=0 && countriesAverage <6 && countriesAverage >=0) {
-        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady these past couple of decades and know that giving is as important as receiving. Just like Whitney, they are saving all their love for someone else, only awarding each other an average of " + countriesAverage + " points.");
+        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady, but they are saving all their love for someone else and only awarding each other an average of " + countriesAverage + " points.");
         $("#heartsAbove").attr('src', "images/hearts.svg");
         $("#heartsBelow").attr('src', "images/hearts.svg");
     }
 
     else if (country2Number-country1Number <=1.5 && country2Number-country1Number >=0 && countriesAverage <6 && countriesAverage >=0) {
-        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady these past couple of decades and know that giving is as important as receiving. Just like Whitney, they are saving all their love for someone else, only awarding each other an average of " + countriesAverage + " points.");
+        $("#result").text(capitaliseFirstLetter(selTop.val()) + " and " + capitaliseFirstLetter(selBottom.val()) + " have been going steady, but they are saving all their love for someone else and only awarding each other an average of " + countriesAverage + " points.");
         $("#heartsAbove").attr('src', "images/hearts.svg");
         $("#heartsBelow").attr('src', "images/hearts.svg");
     }  
